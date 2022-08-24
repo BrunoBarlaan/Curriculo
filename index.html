@@ -13,13 +13,20 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/mystyle.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+        <!-- fab-->
+        <div class="fixed-bottom text-right p-2">
+            <a class="social-icon icon-fab" href="https://api.whatsapp.com/send?phone=5575991942376"><i class="fab fa-whatsapp"></i></a>
+        </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"
-                ><span class="d-block d-lg-none">Bruno Barlaan</span><span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="" alt="" /></span></a
+                ><span class="d-block d-lg-none">Bruno Barlaan</span><span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img-perfil.jpeg" alt="" /></span></a
             ><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
@@ -27,7 +34,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiências</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educação</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesses</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificados</a></li>
                 </ul>
             </div>
@@ -38,7 +45,7 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">Bruno <span class="text-primary">Barlaan</span></h1>
-                    <div class="subheading mb-5">Rua Jornalista Orlando Garcia, 156 ·Salvador, BA· (75) 99194-2376 · <a href="mailto:brunobarlaan@gmail.com">brunobarlaan@gmail.com</a></div>
+                    <div class="subheading mb-5"><a href="https://www.google.com/maps/search/?api=1&query=Rua Jornalista Orlando Garcia 156 Salvador BA">Rua Jornalista Orlando Garcia, 156 ·Salvador, BA</a>· <a href="https://api.whatsapp.com/send?phone=5575991942376">(75) 99194-2376 </a> · <a href="mailto:brunobarlaan@gmail.com">brunobarlaan@gmail.com</a></div>
                     <p class="lead mb-5">Sou um profissional flexível, responsável e pontual, bastante determinado em atingir meus objetivos, além de ser apaixonado pelo desenvolvimento de soluções tecnológicas.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/bruno-barlaan-a57151214/"><i class="fab fa-linkedin-in"></i></a>
@@ -50,11 +57,11 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experiências</h2>
+                    <h2 data-aos="fade-right" class="mb-5">Experiências</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
+                        <div data-aos="fade-left" class="flex-grow-1">
                             <h3 class="mb-0">Estagio - Visao computacional</h3>
-                            <div class="subheading mb-3">Senai Cimatec</div>
+                            <div class="subheading mb-3">Senai Cimatec - Atos</div>
                             <p> Trabalho realizado em conjunto com a multinacional Atos Brasil, com a finalidade de registrar anotações de dados em frames de vídeos, de acordo com as classes pré-determinadas, utilizando Computer Vision Annotation Tool (CVAT) para aprendizado de inteligências artificiais e visão computacional.
                             <p>Desenvolver relatórios em conjunto, registrando o aprendizado, conceitos e possibilidades de utilização da tecnologia nas organizações.</p> 
                             <p>Redigir relatórios diários, incluindo resultados alcançados e contribuições para o projeto.</p></p> 
@@ -68,15 +75,15 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Educação</h2>
+                    <h2 data-aos="fade-right" class="mb-5">Educação</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
+                        <div data-aos="fade-left" class="flex-grow-1">
                             <h3 class="mb-0">Senai Cimatec</h3>
-                            <div class="subheading mb-3">Tecnico em Analise e Desenvolvimento de Sistemas</div>
+                            <div class="subheading mb-3">Analise e Desenvolvimento de Sistemas</div>
                             <div></div>
                             <p></p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2022 - Presente</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2021 - Presente</span></div>
                     </div>
         
                 </div>
@@ -85,29 +92,26 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Linguagens de programação e ferramentas</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                    <h2 data-aos="fade-right" class="mb-5">Skills</h2>
+                    <div data-aos="fade-left" class="subheading mb-3">Linguagens de programação e ferramentas</div>
+                    <ul data-aos="fade-left" class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i>HTML</li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i>CSS</li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i>Javascrypt</li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i>Node-JS</li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i>Java</li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i>Git</li>
+                        <li class="list-inline-item" ><img class="icone" src="mysql.png"> MySQL</li>
+                        <li class="list-inline-item"><img class="icone" src="hashtag.png"> C#</li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
+                    <div data-aos="fade-right" class="subheading mb-3">Trabalho</div>
+                    <ul data-aos="fade-left" class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Mobile-First, Responsive Design
+                            <span class="fa-li"><i class="fas fa-check"></i></span>Ingles Intermediario
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Agile Development & Scrum
+                            <span class="fa-li"><i class="fas fa-check"></i></span>Desenvolvimento Agil & Scrum
                         </li>
                     </ul>
                 </div>
@@ -116,19 +120,18 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <h2 data-aos="fade-right" class="mb-5">Interesses</h2>
+                    <p data-aos="fade-left"> Quero estar em um ambiente que me traga novos desafios de sempre estar aprendendo algo novo e que possa também de passar esses conhecimentos para outras pessoas pois eu acho que o conhecimento e uma das únicas coisas que quando você distribui você ganha mais ao invés de perder.</p>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
+                    <h2 data-aos="fade-right" class="mb-5">Conquistas e Certificações</h2>
+                    <ul data-aos="fade-left" class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>eMag Desenvolvedor
+                            <span  class="fa-li"><i class="fas fa-trophy text-warning"></i></span>eMag Desenvolvedor
                         </li>
                     </ul>
                 </div>
@@ -141,5 +144,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            disable: 'mobile'
+          });
+        </script>
     </body>
 </html>
